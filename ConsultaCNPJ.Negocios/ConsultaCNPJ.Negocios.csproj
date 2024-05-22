@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="3.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NHibernate" Version="5.5.1" />
+    <PackageReference Include="NHibernate.Extensions.NpgSql" Version="7.0.9" />
+    <PackageReference Include="Ninject" Version="3.3.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsultaCNPJ.DB\ConsultaCNPJ.DB.csproj" />
+    <ProjectReference Include="..\ConsultaCNPJ.IntegracaoCNPJ\ConsultaCNPJ.IntegracaoCNPJ.csproj" />
+    <ProjectReference Include="..\ConsultaCNPJ.Repositorio\ConsultaCNPJ.Repositorio.csproj" />
+    <ProjectReference Include="..\ConsultaCNPJ.Utilitarios\ConsultaCNPJ.Utilitarios.csproj" />
+  </ItemGroup>
+
+</Project>
